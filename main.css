@@ -4,9 +4,9 @@
   height: 100px;
   border: white;
   background: fixed;
-  text-align: center
+  text-align: center;
   color: #333;
-  font-family: Palatino, Arial, sans-serif
+  font-family: georgia, sans-serif;
 }
 
 .image{
@@ -15,31 +15,41 @@
   height: 100px;
   border: white;
   background: fixed;
-  text-align: center
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 800px;
 }
 
 .professional-bio{
   /*only addresses the "professional bio"*/
   color: #333;
-  font-family: Palatino, Arial, sans-serif;
-  font-size: 14px
-  text-align: center
+  font-family: georgia, sans-serif;
+  font-size: 14px;
+  text-align: center;
 }
 
-h1, h2{
+.body-text{
   color: #333;
-  font-family: Palatino, Arial, sans-serif;
-  text-align: center
+  font-family: georgia, sans-serif;
+  margin: 20px 200px 200px 200px;
+	width: 1600px;
+	float: left;
+}
+
+.external-profiles-left{
+  float: left;
+}
+
+.external-profiles-right{
+  float: right;
 }
 
 p, ul{
   /*paragraph/list specific*/
-  font-size: 18px
-  color: #333;
-  font-family: Palatino, Arial, sans-serif;
-  text-align: center
+  font-size: 18px;
 }
 
 ul{
-  list-style: none
+  list-style: none;
 }
