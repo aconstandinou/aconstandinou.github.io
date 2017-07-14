@@ -7,6 +7,7 @@
   text-align: center;
   color: #333;
   font-family: georgia, sans-serif;
+  padding-bottom: 10px;
 }
 
 .image{
@@ -35,14 +36,21 @@
   margin: 20px 200px 200px 200px;
 	width: 1600px;
 	float: left;
+  padding-bottom: 10px;
 }
 
 .external-profiles-left{
+  display: inline;
+  bottom: 2px;
   float: left;
+  padding-left: 25px;
 }
 
 .external-profiles-right{
-  float: right;
+  display: inline;
+  bottom: 2px;
+  float: left;
+  padding-left: 25px;
 }
 
 p, ul{
