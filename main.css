@@ -1,3 +1,8 @@
+@font-face{
+  font-family:'Quicksand';
+  src: url('fonts/Quicksand-Regular.otf') format("opentype");
+}
+
 .intro-header{
   /*both purpose and my name*/
   width: auto;
@@ -6,7 +11,7 @@
   background: fixed;
   text-align: center;
   color: #333;
-  font-family: georgia, sans-serif;
+  font-family: Quicksand;
   padding-bottom: 10px;
 }
 
@@ -25,39 +30,76 @@
 .professional-bio{
   /*only addresses the "professional bio"*/
   color: #333;
-  font-family: georgia, sans-serif;
+  font-family: Quicksand;
   font-size: 14px;
   text-align: center;
 }
 
 .body-text{
   color: #333;
-  font-family: georgia, sans-serif;
+  font-family: Quicksand;
   margin: 20px 200px 200px 200px;
 	width: 1600px;
 	float: left;
   padding-bottom: 10px;
+  padding-left: 200px
 }
 
-.external-profiles-left{
-  display: inline;
+.external-profiles{
+  display: block;
   bottom: 2px;
-  float: left;
-  padding-left: 25px;
+  text-align: center;
+  padding-top: 25px;
 }
 
-.external-profiles-right{
-  display: inline;
-  bottom: 2px;
-  float: left;
-  padding-left: 25px;
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
 }
 
+ul.icons li {
+  display: inline-block;
+  padding: 0 12px 0 0;
+}
+
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+/*paragraph/list specific*/
 p, ul{
-  /*paragraph/list specific*/
   font-size: 18px;
 }
 
 ul{
   list-style: none;
+}
+
+/* Wrapper (style1) */
+.wrapper.style1 > .inner {
+  padding: 112px 56px 80px 56px;
+	margin: 0 auto;
+	max-width: 100%;
+  width: 1024px
+}
+
+.wrapper.style1 > .inner {
+  padding: 80px 40px 48px 40px;
+}
+
+.wrapper.style1 > .inner {
+  padding: 64px 64px 32px 64px;
+}
+
+.wrapper.style1 > .inner {
+  padding: 72px 48px 40px 48px;
+}
+
+.wrapper.style1 > .inner {
+  padding: 48px 32px 16px 32px;
+}
+
+.align-center {
+  text-align: center;
 }
